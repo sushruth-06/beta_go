@@ -11,4 +11,12 @@ Each of them is clickable which will take you to new Layout
 ![image](6.jpeg)
 
 **Machinery Market**
-This takes you to the new dart file called LeaseRent.dart of LIB directory
+This takes you to the new dart file called  LeaseRent.dart of LIB directory
+In this page you need to choose weather you need to
+1)Leaseout your vehicles
+2)Rent other's vehicles for your use
+
+![image](5.jpeg)
+
+
+Leasout your vehicles would want you to enter the vehicle details like the 
