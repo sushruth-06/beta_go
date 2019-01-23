@@ -7,7 +7,10 @@ We will be starting our application from scratch.
 
 
 # Dependencies
-Flutter 
+## flutter:
+##    sdk: flutter
+##  cached_network_image:
+##  url_launcher:
 
 # **OVERVIEW**
 In the **main.dart of the LIB directory** we the main function of the project is defined.
