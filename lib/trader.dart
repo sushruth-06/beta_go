@@ -73,7 +73,7 @@ class Details extends StatelessWidget{
             ),
             constraints: new BoxConstraints.expand(
               width:double.infinity,
-              height: 250,
+              height: 300,
             ),
             child: Column(
 

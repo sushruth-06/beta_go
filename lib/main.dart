@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
  import 'new1.dart';
  import 'trader.dart';
+ import 'lease.dart';
+ import 'LeaseRent.dart';
+
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -42,6 +46,7 @@ class MyCustomFormState extends State<MyCustomForm> {
         child: Text('Profile'),
     decoration: BoxDecoration(
     color: Colors.blue,
+
     ),
     ),
     ListTile(
@@ -49,7 +54,7 @@ class MyCustomFormState extends State<MyCustomForm> {
     onTap: () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => Machinery()),
+        MaterialPageRoute(builder: (context) => Leaserent()),
       );
     // Update the state of the app
     // ...
@@ -83,3 +88,4 @@ class MyCustomFormState extends State<MyCustomForm> {
     );
   }
   }
+
