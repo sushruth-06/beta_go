@@ -3,4 +3,4 @@ We are developing an native application using flutter. Our application aims to p
 At the retailer’s end the retailer can propose needs and specify all his requirements such as type of commodity, quantity , quality and the date before which its required.
 We will be starting our application from scratch.
 
-![image](https://drive.google.com/open?id=104BkkGgNp7zCr0SipzIP12aaLiFYkM89)
+![image](1.jpeg)
