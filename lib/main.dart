@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
  import 'new1.dart';
+ import 'trader.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -57,6 +58,10 @@ class MyCustomFormState extends State<MyCustomForm> {
     ListTile(
     title: Text('Traders section'),
     onTap: () {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => ListDisplay()),
+      );
     // Update the state of the app
     // ...
     },
