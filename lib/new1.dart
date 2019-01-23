@@ -62,7 +62,8 @@ class Machinery extends StatelessWidget {
                         children: [
                           Text('Machinery name',style: TextStyle(
                           fontSize: 24,
-                          fontWeight: FontWeight.bold),
+                          fontWeight: FontWeight.bold,  fontFamily: "Montserrat"),
+
             ),
                           SizedBox(
                             height: 20,
@@ -97,23 +98,23 @@ class Machinery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children:<Widget>[ Padding(
                           padding: const EdgeInsets.only(top:20.0,left: 8),
-                          child: Text('Location',style: TextStyle(fontSize: 15)),
+                          child: Text('Location',style: TextStyle(fontSize: 15,fontFamily: "Montserrat")),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Text('Price/hour',style: TextStyle(fontSize: 15)),
+                          child: Text('Price/hour',style: TextStyle(fontSize: 15,fontFamily: "Montserrat")),
                         ),
                         RaisedButton(onPressed: (){}
                         ,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Text('Rent',style: TextStyle(fontSize: 15),),
+                          child: Text('Rent',style: TextStyle(fontSize: 15,fontFamily: "Montserrat"),),
                         ),),
                         RaisedButton(onPressed: urlLaunch
                           ,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text('Call',style: TextStyle(fontSize: 15),),
+                            child: Text('Call',style: TextStyle(fontSize: 15,fontFamily: "Montserrat"),),
                           ),)])
                   ],
             ),

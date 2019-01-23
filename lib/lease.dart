@@ -7,6 +7,7 @@ class Lease extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Lease Machineries'),
@@ -19,7 +20,7 @@ class Lease extends StatelessWidget{
             Center(
               child: Container(
                 padding: EdgeInsets.all(20)
-                ,child: Column(children:<Widget>[ Text('List your Machine',style: TextStyle(fontSize: 25),),]),
+                ,child: Column(children:<Widget>[ Text('List your Machine',style: TextStyle(fontSize: 25,fontFamily: "Montserrat"),),]),
 
                 margin: const EdgeInsets.all(10.0),
                 width: double.infinity,
@@ -32,7 +33,7 @@ class Lease extends StatelessWidget{
               padding: EdgeInsets.all(20),
               child:(
                   Column(children:<Widget>[
-                    Text('Vehicle type',style: TextStyle(fontSize: 25)),
+                    Text('Vehicle type',style: TextStyle(fontSize: 25,fontFamily: "Montserrat")),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: TextFormField(
@@ -51,7 +52,7 @@ class Lease extends StatelessWidget{
                       ),
                     ),
 
-                    Text('Location',style: TextStyle(fontSize: 25)),
+                    Text('Location',style: TextStyle(fontSize: 25,fontFamily: "Montserrat")),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: TextFormField(
@@ -69,7 +70,7 @@ class Lease extends StatelessWidget{
                         },
                       ),
                     ),
-                    Text('Hourly charges',style: TextStyle(fontSize: 25)),
+                    Text('Hourly charges',style: TextStyle(fontSize: 25,fontFamily: "Montserrat")),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: TextFormField(
@@ -87,7 +88,7 @@ class Lease extends StatelessWidget{
                         },
                       ),
                     ),
-                    Text('Contact details:',style: TextStyle(fontSize: 25)),
+                    Text('Contact details:',style: TextStyle(fontSize: 25,fontFamily: "Montserrat")),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: TextFormField(
@@ -109,10 +110,10 @@ class Lease extends StatelessWidget{
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         RaisedButton(onPressed:null,color: Colors.blueAccent,
-                          child: Text('SUBMIT',style: TextStyle(fontSize: 20,color: Colors.white),),
+                          child: Text('SUBMIT',style: TextStyle(fontSize: 20,color: Colors.white,fontFamily: "Montserrat"),),
                         ),
                         RaisedButton(onPressed:null,color: Colors.white,
-                          child: Text('CANCEL',style: TextStyle(fontSize: 20),),
+                          child: Text('CANCEL',style: TextStyle(fontSize: 20,fontFamily: "Montserrat"),),
                         ),
                       ],
                     )

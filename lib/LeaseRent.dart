@@ -16,7 +16,7 @@ class Leaserent extends StatelessWidget{
           //crossAxisAlignment: CrossAxisAlignment.stretch,
           //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Text('Choose any one of the following optins to continue',style: TextStyle(fontSize: 20),textAlign: TextAlign.center,),
+            Text('Choose any one of the following optins to continue',style: TextStyle(fontSize: 20,fontFamily: "Montserrat"),textAlign: TextAlign.center,),
               Center(
               child: RaisedButton(onPressed: () {
                 Navigator.push(
@@ -24,7 +24,7 @@ class Leaserent extends StatelessWidget{
                   MaterialPageRoute(builder: (context) => Lease()),
                 );
               },
-                child: Text('Leaseout your machines'),),
+                child: Text('Leaseout your machines',style: TextStyle(fontFamily: "Montserrat")),),
             ),
             RaisedButton(onPressed: () {
               Navigator.push(
@@ -32,7 +32,7 @@ class Leaserent extends StatelessWidget{
                 MaterialPageRoute(builder: (context) => Machinery()),
               );
             },
-              child: Text("Rent other's machines"),)
+              child: Text("Rent other's machines",style: TextStyle(fontFamily: "Montserrat")),)
           ],
         ),
     );

@@ -19,7 +19,7 @@ class ListDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: new AppBar(title: new Text("Traders Section"),),
+        appBar: new AppBar(title: new Text("Traders Section",style:TextStyle(fontFamily: "Montserrat") ,),),
         body: Column(
 
           children: <Widget>[
@@ -27,15 +27,15 @@ class ListDisplay extends StatelessWidget {
             Center(
               child: Container(
                 padding: EdgeInsets.all(20)
-                ,child: Column(children:<Widget>[ Text('Trader 1',style: TextStyle(fontSize: 25),),
-              Text('Commodity 1',style: TextStyle(fontSize: 25),),
+                ,child: Column(children:<Widget>[ Text('Trader 1',style: TextStyle(fontSize: 25,fontFamily: "Montserrat"),),
+              Text('Commodity 1',style: TextStyle(fontSize: 25,fontFamily: "Montserrat"),),
               RaisedButton(onPressed:() {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Details()),
                 );
               }
-                ,child: Text('View',style: TextStyle(fontSize: 20),),),
+                ,child: Text('View',style: TextStyle(fontSize: 20,fontFamily: "Montserrat"),),),
               ]),
                 margin: const EdgeInsets.all(10.0),
                 width: double.infinity,

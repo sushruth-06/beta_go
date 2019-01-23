@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(fontFamily: 'Montserrat'),
       home :Scaffold(
         appBar: AppBar(
-          title: Text('AGRI CENTER'),
+          title: Text('AGRI CENTER',style: TextStyle(fontFamily: "Montserrat"),),
           backgroundColor: Colors.orange,
         ),
         body : MyCustomForm(),
@@ -91,6 +92,6 @@ class MyCustomFormState extends State<MyCustomForm> {
   /*
   vilas and me are doing this project using flutter.Flutter is a SDK built on dart.
   satwick pai , sadaf , anirudg are doing an app using android studio
-  
+
   */
 
