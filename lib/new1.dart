@@ -63,6 +63,7 @@ class Machinery extends StatelessWidget {
                       children:<Widget>[ Column(
                         //mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
+<<<<<<< HEAD
                           StreamBuilder(
                             stream: Firestore.instance.collection('rent_vehicles').snapshots(),
                             builder: (context,snapshot){
@@ -74,6 +75,11 @@ class Machinery extends StatelessWidget {
                          /* Text('Machinery name',style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,  fontFamily: "Montserrat"),
+=======
+                          Text('Machinery name',style: TextStyle(
+                          fontSize: 18,
+                            fontFamily: "Montserrat"),
+>>>>>>> 1b7d6eab77f7e4bc9ae0c96823021a8f8892f303
 
             ),*/
                           SizedBox(
@@ -86,17 +92,29 @@ class Machinery extends StatelessWidget {
                             //child: Text('B'.toUpperCase(),style: TextStyle(fontSize: 50,color: Colors.white),),
                             //backgroundColor: Colors.blueGrey,
                             maxRadius: 50.0,
+<<<<<<< HEAD
                             //minRadius: 60.0,
+=======
+                           // minRadius: 60.0,
+>>>>>>> 1b7d6eab77f7e4bc9ae0c96823021a8f8892f303
                           ),
                           SizedBox(
                             height: 20,
                           ),
                           Center(
+<<<<<<< HEAD
                               child: StreamBuilder(
                                 stream: Firestore.instance.collection('rent_vehicles').snapshots(),
                                 builder: (context,snapshot){
                                   return Text(snapshot.data.documents[index]['owner']);
                                 },
+=======
+                              child: Text(
+                                'Leaser Name',
+                                style: TextStyle(
+                                    fontSize: 15,
+                          ),
+>>>>>>> 1b7d6eab77f7e4bc9ae0c96823021a8f8892f303
                               )),
                           SizedBox(
                             height: 20,
@@ -107,6 +125,7 @@ class Machinery extends StatelessWidget {
                          // verticalDirection: VerticalDirection.down,
                          //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
+<<<<<<< HEAD
                         children:<Widget>[
                           Padding(
                             padding: const EdgeInsets.all(8.0),
@@ -121,6 +140,11 @@ class Machinery extends StatelessWidget {
                             },
                           )
                          // Text('Location',style: TextStyle(fontSize: 15,fontFamily: "Montserrat")),
+=======
+                        children:<Widget>[ Padding(
+                          padding: const EdgeInsets.only(top:20.0,),
+                          child: Text('Location',style: TextStyle(fontSize: 15,fontFamily: "Montserrat")),
+>>>>>>> 1b7d6eab77f7e4bc9ae0c96823021a8f8892f303
                         ),
 
                         Padding(

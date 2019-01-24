@@ -6,6 +6,10 @@ import 'package:flutter/widgets.dart';
  import 'LeaseRent.dart';
 import 'qna.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b7d6eab77f7e4bc9ae0c96823021a8f8892f303
 
 
 void main() => runApp(MyApp());
