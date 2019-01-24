@@ -61,8 +61,8 @@ class Machinery extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Text('Machinery name',style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,  fontFamily: "Montserrat"),
+                          fontSize: 18,
+                            fontFamily: "Montserrat"),
 
             ),
                           SizedBox(
@@ -74,8 +74,8 @@ class Machinery extends StatelessWidget {
                               image[index]),
                             //child: Text('B'.toUpperCase(),style: TextStyle(fontSize: 50,color: Colors.white),),
                             //backgroundColor: Colors.blueGrey,
-                            maxRadius: 80.0,
-                            minRadius: 60.0,
+                            maxRadius: 50.0,
+                           // minRadius: 60.0,
                           ),
                           SizedBox(
                             height: 20,
@@ -85,7 +85,7 @@ class Machinery extends StatelessWidget {
                                 'Leaser Name',
                                 style: TextStyle(
                                     fontSize: 15,
-                                    fontWeight: FontWeight.bold),
+                          ),
                               )),
                           SizedBox(
                             height: 20,
@@ -97,7 +97,7 @@ class Machinery extends StatelessWidget {
                          //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children:<Widget>[ Padding(
-                          padding: const EdgeInsets.only(top:20.0,left: 8),
+                          padding: const EdgeInsets.only(top:20.0,),
                           child: Text('Location',style: TextStyle(fontSize: 15,fontFamily: "Montserrat")),
                         ),
                         Padding(
