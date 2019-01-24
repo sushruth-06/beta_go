@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "739793193993",
+    "firebase_url": "https://nmithacks-63454.firebaseio.com",
+    "project_id": "nmithacks-63454",
+    "storage_bucket": "nmithacks-63454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739793193993:android:f59b309f9dcd08c3",
+        "android_client_info": {
+          "package_name": "com.nmithack.nmithacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739793193993-o7o1gri51brbbnploto5bga7rhphi284.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtjMh0ADgCuihaQXcAGd6jdpH8m1ZNlzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
