@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'new1.dart';
 import 'lease.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Leaserent extends StatelessWidget{
   @override
@@ -9,7 +10,7 @@ class Leaserent extends StatelessWidget{
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-          title: Text('Chose'),
+          title: Text('Choose'),
           backgroundColor: Colors.orangeAccent,
         ),
         body: Column(
@@ -32,7 +33,14 @@ class Leaserent extends StatelessWidget{
                 MaterialPageRoute(builder: (context) => Machinery()),
               );
             },
-              child: Text("Rent other's machines",style: TextStyle(fontFamily: "Montserrat")),)
+              child: Text("Rent other's machines",style: TextStyle(fontFamily: "Montserrat")),
+            ),
+            StreamBuilder(
+              stream: Firestore.instance.collection('new').snapshots(),
+              builder: (context,snapshot){
+                return Text(snapshot.data.documents[0]['hello']);
+              },
+            )
           ],
         ),
     );
