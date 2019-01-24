@@ -9,7 +9,7 @@ class Leaserent extends StatelessWidget{
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-          title: Text('Chose'),
+          title: Text('Choose'),
           backgroundColor: Colors.orangeAccent,
         ),
         body: Column(

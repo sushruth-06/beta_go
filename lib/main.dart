@@ -4,6 +4,8 @@ import 'package:flutter/widgets.dart';
  import 'trader.dart';
  import 'lease.dart';
  import 'LeaseRent.dart';
+import 'qna.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 
 void main() => runApp(MyApp());
@@ -77,8 +79,10 @@ class MyCustomFormState extends State<MyCustomForm> {
 
             onTap: () {
 
-
-            },
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => traderSide()));
+            }
             // Update the state of the app
             // ...
 
